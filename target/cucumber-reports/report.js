@@ -14,12 +14,12 @@ formatter.feature({
   "tags": [
     {
       "line": 2,
-      "name": "@testcase1"
+      "name": "@diceTek"
     }
   ]
 });
 formatter.before({
-  "duration": 4198566600,
+  "duration": 3106949300,
   "status": "passed"
 });
 formatter.scenario({
@@ -32,7 +32,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 5,
-      "name": "@VerifyTitle"
+      "name": "@UAE"
     }
   ]
 });
@@ -96,7 +96,7 @@ formatter.match({
   "location": "StepDefinition.open_the_URL()"
 });
 formatter.result({
-  "duration": 7459546200,
+  "duration": 7144318200,
   "status": "passed"
 });
 formatter.match({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 3967639000,
+  "duration": 266939300,
   "status": "passed"
 });
 formatter.match({
@@ -122,7 +122,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 311076600,
+  "duration": 2741760700,
   "status": "passed"
 });
 formatter.match({
@@ -135,7 +135,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 1748452200,
+  "duration": 1541353500,
   "status": "passed"
 });
 formatter.match({
@@ -152,7 +152,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 95565700,
+  "duration": 65705400,
   "status": "passed"
 });
 formatter.match({
@@ -169,7 +169,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 30508700,
+  "duration": 25362000,
   "status": "passed"
 });
 formatter.match({
@@ -186,7 +186,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 26530200,
+  "duration": 42296500,
   "status": "passed"
 });
 formatter.match({
@@ -203,7 +203,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 37069300,
+  "duration": 31685500,
   "status": "passed"
 });
 formatter.match({
@@ -220,7 +220,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 29093700,
+  "duration": 28455400,
   "status": "passed"
 });
 formatter.match({
@@ -237,78 +237,84 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 45919400,
+  "duration": 24015700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1037777000,
+  "duration": 942970300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1632506700,
+  "duration": 1621047100,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 19,
+  "line": 20,
   "name": "Test case for Egypt",
   "description": "",
   "id": "test-scenarios-for-dicetek;test-case-for-egypt",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@Egypt"
+    }
+  ]
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "open the URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "I click on translate",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "I click on country",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "I click on Egypt",
   "keyword": "Then "
 });
 formatter.step({
   "comments": [
     {
-      "line": 24,
+      "line": 25,
       "value": "#Assertions for Egypt"
     }
   ],
-  "line": 25,
+  "line": 26,
   "name": "I assert the text \"LITE\" with \"LITE\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 26,
+  "line": 27,
   "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 27,
+  "line": 28,
   "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 28,
+  "line": 29,
   "name": "I assert the text \"0.25 USD/month\" with \"LitePrice\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 29,
+  "line": 30,
   "name": "I assert the text \"0.5 USD/month\" with \"ClassicPrice\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 30,
+  "line": 31,
   "name": "I assert the text \"1 USD/month\" with \"PremiumPrice\"",
   "keyword": "Then "
 });
@@ -316,7 +322,7 @@ formatter.match({
   "location": "StepDefinition.open_the_URL()"
 });
 formatter.result({
-  "duration": 6958793800,
+  "duration": 10801040900,
   "status": "passed"
 });
 formatter.match({
@@ -329,7 +335,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 319762500,
+  "duration": 421203900,
   "status": "passed"
 });
 formatter.match({
@@ -342,7 +348,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 2362086100,
+  "duration": 1839538400,
   "status": "passed"
 });
 formatter.match({
@@ -355,7 +361,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 25854640000,
+  "duration": 1371595600,
   "status": "passed"
 });
 formatter.match({
@@ -372,7 +378,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 39226700,
+  "duration": 45674000,
   "status": "passed"
 });
 formatter.match({
@@ -389,7 +395,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 30456800,
+  "duration": 27682300,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +412,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 25503700,
+  "duration": 32979200,
   "status": "passed"
 });
 formatter.match({
@@ -423,7 +429,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 24788000,
+  "duration": 27517500,
   "status": "passed"
 });
 formatter.match({
@@ -440,7 +446,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 31048600,
+  "duration": 26452400,
   "status": "passed"
 });
 formatter.match({
@@ -457,78 +463,84 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 35343400,
+  "duration": 27860000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1034660900,
+  "duration": 1070121700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1626417500,
+  "duration": 1509450700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 32,
+  "line": 34,
   "name": "Test case for Algeria",
   "description": "",
   "id": "test-scenarios-for-dicetek;test-case-for-algeria",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 33,
+      "name": "@Algeria"
+    }
+  ]
 });
 formatter.step({
-  "line": 33,
+  "line": 35,
   "name": "open the URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 34,
+  "line": 36,
   "name": "I click on translate",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 37,
   "name": "I click on country",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 36,
+  "line": 38,
   "name": "I click on Algeria",
   "keyword": "Then "
 });
 formatter.step({
   "comments": [
     {
-      "line": 37,
+      "line": 39,
       "value": "#Assertions for Algeria"
     }
   ],
-  "line": 38,
+  "line": 40,
   "name": "I assert the text \"LITE\" with \"LITE\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 39,
+  "line": 41,
   "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 40,
+  "line": 42,
   "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 41,
+  "line": 43,
   "name": "I assert the text \"2.7 USD/month\" with \"LitePrice\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "I assert the text \"5.3 USD/month\" with \"ClassicPrice\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 43,
+  "line": 45,
   "name": "I assert the text \"8 USD/month\" with \"PremiumPrice\"",
   "keyword": "Then "
 });
@@ -536,7 +548,7 @@ formatter.match({
   "location": "StepDefinition.open_the_URL()"
 });
 formatter.result({
-  "duration": 13773270500,
+  "duration": 6396450600,
   "status": "passed"
 });
 formatter.match({
@@ -549,7 +561,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 13504675900,
+  "duration": 1931173800,
   "status": "passed"
 });
 formatter.match({
@@ -562,7 +574,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 19951867000,
+  "duration": 180346000,
   "status": "passed"
 });
 formatter.match({
@@ -575,7 +587,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 17490734300,
+  "duration": 1434088600,
   "status": "passed"
 });
 formatter.match({
@@ -592,7 +604,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 38853500,
+  "duration": 43302400,
   "status": "passed"
 });
 formatter.match({
@@ -609,7 +621,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 27319200,
+  "duration": 26310800,
   "status": "passed"
 });
 formatter.match({
@@ -626,7 +638,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 27682100,
+  "duration": 25830700,
   "status": "passed"
 });
 formatter.match({
@@ -643,7 +655,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 28771600,
+  "duration": 29324800,
   "status": "passed"
 });
 formatter.match({
@@ -660,7 +672,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 53556600,
+  "duration": 26697900,
   "status": "passed"
 });
 formatter.match({
@@ -677,78 +689,84 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 26509800,
+  "duration": 25304800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1059473800,
+  "duration": 954324700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1774785900,
+  "duration": 1516368500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 45,
+  "line": 48,
   "name": "Test case for Chad",
   "description": "",
   "id": "test-scenarios-for-dicetek;test-case-for-chad",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 47,
+      "name": "@Chad"
+    }
+  ]
 });
 formatter.step({
-  "line": 46,
+  "line": 49,
   "name": "open the URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 47,
+  "line": 50,
   "name": "I click on translate",
   "keyword": "When "
 });
 formatter.step({
-  "line": 48,
+  "line": 51,
   "name": "I click on country",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 49,
+  "line": 52,
   "name": "I click on Chad",
   "keyword": "Then "
 });
 formatter.step({
   "comments": [
     {
-      "line": 50,
+      "line": 53,
       "value": "#Assertions for Chad"
     }
   ],
-  "line": 51,
+  "line": 54,
   "name": "I assert the text \"LITE\" with \"LITE\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 52,
+  "line": 55,
   "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 53,
+  "line": 56,
   "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 54,
+  "line": 57,
   "name": "I assert the text \"2.4 USD/month\" with \"LitePrice\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 55,
+  "line": 58,
   "name": "I assert the text \"4.8 USD/month\" with \"ClassicPrice\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 56,
+  "line": 59,
   "name": "I assert the text \"7.2 USD/month\" with \"PremiumPrice\"",
   "keyword": "Then "
 });
@@ -756,7 +774,7 @@ formatter.match({
   "location": "StepDefinition.open_the_URL()"
 });
 formatter.result({
-  "duration": 10274466700,
+  "duration": 7606511500,
   "status": "passed"
 });
 formatter.match({
@@ -769,7 +787,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 2195885700,
+  "duration": 262158800,
   "status": "passed"
 });
 formatter.match({
@@ -782,7 +800,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 468855300,
+  "duration": 2156197700,
   "status": "passed"
 });
 formatter.match({
@@ -795,7 +813,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 4588817400,
+  "duration": 1828528900,
   "status": "passed"
 });
 formatter.match({
@@ -812,7 +830,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 64447200,
+  "duration": 50558400,
   "status": "passed"
 });
 formatter.match({
@@ -829,7 +847,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 32302100,
+  "duration": 29604200,
   "status": "passed"
 });
 formatter.match({
@@ -846,7 +864,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 26328300,
+  "duration": 24945000,
   "status": "passed"
 });
 formatter.match({
@@ -863,7 +881,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 28163700,
+  "duration": 25519100,
   "status": "passed"
 });
 formatter.match({
@@ -880,7 +898,7 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 30373800,
+  "duration": 24708000,
   "status": "passed"
 });
 formatter.match({
@@ -897,11 +915,11 @@ formatter.match({
   "location": "StepDefinition.assertions(String,String)"
 });
 formatter.result({
-  "duration": 34361800,
+  "duration": 24333100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1005139700,
+  "duration": 1039791100,
   "status": "passed"
 });
 });
