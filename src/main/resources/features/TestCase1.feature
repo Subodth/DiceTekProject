@@ -1,9 +1,9 @@
 #Author: subodthvidinvm@gmail.com
-@testcase1
+@diceTek
 Feature: Test Scenarios for DiceTek
 
-  @VerifyTitle
-  Scenario: Test case for UAE
+  	@UAE
+  	Scenario: Test case for UAE
     Given open the URL
     When I click on translate
     Then I click on country
@@ -16,6 +16,7 @@ Feature: Test Scenarios for DiceTek
     Then I assert the text "10.9 USD/month" with "ClassicPrice"
     Then I assert the text "16.3 USD/month" with "PremiumPrice"
     
+    @Egypt
     Scenario: Test case for Egypt
     Given open the URL
     When I click on translate
@@ -29,6 +30,7 @@ Feature: Test Scenarios for DiceTek
     Then I assert the text "0.5 USD/month" with "ClassicPrice"
     Then I assert the text "1 USD/month" with "PremiumPrice"
     
+    @Algeria
     Scenario: Test case for Algeria
     Given open the URL
     When I click on translate
@@ -42,6 +44,7 @@ Feature: Test Scenarios for DiceTek
     Then I assert the text "5.3 USD/month" with "ClassicPrice"
     Then I assert the text "8 USD/month" with "PremiumPrice"
 
+		@Chad
     Scenario: Test case for Chad
     Given open the URL
     When I click on translate
