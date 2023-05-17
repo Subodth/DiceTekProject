@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("TestCase1.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("TestCase2.feature");
 formatter.feature({
   "comments": [
     {
@@ -18,21 +18,17 @@ formatter.feature({
     }
   ]
 });
-formatter.before({
-  "duration": 3106949300,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.scenarioOutline({
   "line": 6,
-  "name": "Test case for UAE",
+  "name": "Test case for \u003ccountry\u003e",
   "description": "",
-  "id": "test-scenarios-for-dicetek;test-case-for-uae",
-  "type": "scenario",
-  "keyword": "Scenario",
+  "id": "test-scenarios-for-dicetek;test-case-for-\u003ccountry\u003e",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "line": 5,
-      "name": "@UAE"
+      "name": "@TestCase2withExamples"
     }
   ]
 });
@@ -48,55 +44,194 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I click on country",
+  "name": "I assert the title with \"Jawwy TV - Watch Online movies, series \u0026 live TV | Enjoy Free Trial\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "I click on UAE",
+  "name": "I click on country",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "I click on \u003ccountry\u003e",
   "keyword": "Then "
 });
 formatter.step({
   "comments": [
     {
-      "line": 11,
+      "line": 12,
       "value": "#Assertions for UAE"
     }
   ],
-  "line": 12,
+  "line": 13,
   "name": "I assert the text \"LITE\" with \"LITE\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 15,
-  "name": "I assert the text \"5.4 USD/month\" with \"LitePrice\"",
-  "keyword": "Then "
-});
-formatter.step({
   "line": 16,
-  "name": "I assert the text \"10.9 USD/month\" with \"ClassicPrice\"",
+  "name": "I assert the text \"\u003cprice1\u003e\" with \"LitePrice\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 17,
+  "name": "I assert the text \"\u003cprice2\u003e\" with \"ClassicPrice\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 18,
+  "name": "I assert the text \"\u003cprice3\u003e\" with \"PremiumPrice\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 20,
+  "name": "",
+  "description": "",
+  "id": "test-scenarios-for-dicetek;test-case-for-\u003ccountry\u003e;",
+  "rows": [
+    {
+      "cells": [
+        "country",
+        "price1",
+        "price2",
+        "price3"
+      ],
+      "line": 21,
+      "id": "test-scenarios-for-dicetek;test-case-for-\u003ccountry\u003e;;1"
+    },
+    {
+      "cells": [
+        "UAE",
+        "5.4 USD/month",
+        "10.9 USD/month",
+        "16.3 USD/month"
+      ],
+      "line": 22,
+      "id": "test-scenarios-for-dicetek;test-case-for-\u003ccountry\u003e;;2"
+    },
+    {
+      "cells": [
+        "Egypt",
+        "0.25 USD/month",
+        "0.5 USD/month",
+        "1 USD/month"
+      ],
+      "line": 23,
+      "id": "test-scenarios-for-dicetek;test-case-for-\u003ccountry\u003e;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 5531100800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 22,
+  "name": "Test case for UAE",
+  "description": "",
+  "id": "test-scenarios-for-dicetek;test-case-for-\u003ccountry\u003e;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@TestCase2withExamples"
+    },
+    {
+      "line": 2,
+      "name": "@diceTek"
+    }
+  ]
+});
+formatter.step({
+  "line": 7,
+  "name": "open the URL",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "I click on translate",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I assert the title with \"Jawwy TV - Watch Online movies, series \u0026 live TV | Enjoy Free Trial\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click on country",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "I click on UAE",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 12,
+      "value": "#Assertions for UAE"
+    }
+  ],
+  "line": 13,
+  "name": "I assert the text \"LITE\" with \"LITE\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "I assert the text \"5.4 USD/month\" with \"LitePrice\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 17,
+  "name": "I assert the text \"10.9 USD/month\" with \"ClassicPrice\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 18,
   "name": "I assert the text \"16.3 USD/month\" with \"PremiumPrice\"",
+  "matchedColumns": [
+    3
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDefinition.open_the_URL()"
 });
 formatter.result({
-  "duration": 7144318200,
+  "duration": 136464046700,
   "status": "passed"
 });
 formatter.match({
@@ -109,7 +244,20 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 266939300,
+  "duration": 7412046500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jawwy TV - Watch Online movies, series \u0026 live TV | Enjoy Free Trial",
+      "offset": 25
+    }
+  ],
+  "location": "StepDefinition.titleAssertion(String)"
+});
+formatter.result({
+  "duration": 26629900,
   "status": "passed"
 });
 formatter.match({
@@ -122,7 +270,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 2741760700,
+  "duration": 507415900,
   "status": "passed"
 });
 formatter.match({
@@ -135,7 +283,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 1541353500,
+  "duration": 4293805200,
   "status": "passed"
 });
 formatter.match({
@@ -149,10 +297,10 @@ formatter.match({
       "offset": 31
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 65705400,
+  "duration": 56660200,
   "status": "passed"
 });
 formatter.match({
@@ -166,10 +314,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 25362000,
+  "duration": 48244600,
   "status": "passed"
 });
 formatter.match({
@@ -183,10 +331,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 42296500,
+  "duration": 35997000,
   "status": "passed"
 });
 formatter.match({
@@ -200,10 +348,10 @@ formatter.match({
       "offset": 40
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 31685500,
+  "duration": 37714100,
   "status": "passed"
 });
 formatter.match({
@@ -217,10 +365,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 28455400,
+  "duration": 37008100,
   "status": "passed"
 });
 formatter.match({
@@ -234,95 +382,116 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 24015700,
+  "duration": 34238700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 942970300,
+  "duration": 5197015900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1621047100,
+  "duration": 5551860700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
+  "line": 23,
   "name": "Test case for Egypt",
   "description": "",
-  "id": "test-scenarios-for-dicetek;test-case-for-egypt",
+  "id": "test-scenarios-for-dicetek;test-case-for-\u003ccountry\u003e;;3",
   "type": "scenario",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 19,
-      "name": "@Egypt"
+      "line": 5,
+      "name": "@TestCase2withExamples"
+    },
+    {
+      "line": 2,
+      "name": "@diceTek"
     }
   ]
 });
 formatter.step({
-  "line": 21,
+  "line": 7,
   "name": "open the URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 22,
+  "line": 8,
   "name": "I click on translate",
   "keyword": "When "
 });
 formatter.step({
-  "line": 23,
+  "line": 9,
+  "name": "I assert the title with \"Jawwy TV - Watch Online movies, series \u0026 live TV | Enjoy Free Trial\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
   "name": "I click on country",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 24,
+  "line": 11,
   "name": "I click on Egypt",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Then "
 });
 formatter.step({
   "comments": [
     {
-      "line": 25,
-      "value": "#Assertions for Egypt"
+      "line": 12,
+      "value": "#Assertions for UAE"
     }
   ],
-  "line": 26,
+  "line": 13,
   "name": "I assert the text \"LITE\" with \"LITE\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 27,
+  "line": 14,
   "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 28,
+  "line": 15,
   "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 29,
+  "line": 16,
   "name": "I assert the text \"0.25 USD/month\" with \"LitePrice\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 30,
+  "line": 17,
   "name": "I assert the text \"0.5 USD/month\" with \"ClassicPrice\"",
+  "matchedColumns": [
+    2
+  ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 31,
+  "line": 18,
   "name": "I assert the text \"1 USD/month\" with \"PremiumPrice\"",
+  "matchedColumns": [
+    3
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDefinition.open_the_URL()"
 });
 formatter.result({
-  "duration": 10801040900,
+  "duration": 53315635000,
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +504,20 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 421203900,
+  "duration": 4041304600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jawwy TV - Watch Online movies, series \u0026 live TV | Enjoy Free Trial",
+      "offset": 25
+    }
+  ],
+  "location": "StepDefinition.titleAssertion(String)"
+});
+formatter.result({
+  "duration": 44559900,
   "status": "passed"
 });
 formatter.match({
@@ -348,7 +530,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 1839538400,
+  "duration": 1135065500,
   "status": "passed"
 });
 formatter.match({
@@ -361,7 +543,7 @@ formatter.match({
   "location": "StepDefinition.click(String)"
 });
 formatter.result({
-  "duration": 1371595600,
+  "duration": 4066582200,
   "status": "passed"
 });
 formatter.match({
@@ -375,10 +557,10 @@ formatter.match({
       "offset": 31
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 45674000,
+  "duration": 50064100,
   "status": "passed"
 });
 formatter.match({
@@ -392,10 +574,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 27682300,
+  "duration": 26454600,
   "status": "passed"
 });
 formatter.match({
@@ -409,10 +591,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 32979200,
+  "duration": 25354100,
   "status": "passed"
 });
 formatter.match({
@@ -426,10 +608,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 27517500,
+  "duration": 34416800,
   "status": "passed"
 });
 formatter.match({
@@ -443,10 +625,10 @@ formatter.match({
       "offset": 40
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 26452400,
+  "duration": 30926900,
   "status": "passed"
 });
 formatter.match({
@@ -460,466 +642,14 @@ formatter.match({
       "offset": 38
     }
   ],
-  "location": "StepDefinition.assertions(String,String)"
+  "location": "StepDefinition.textAssertions(String,String)"
 });
 formatter.result({
-  "duration": 27860000,
+  "duration": 28013800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1070121700,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1509450700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 34,
-  "name": "Test case for Algeria",
-  "description": "",
-  "id": "test-scenarios-for-dicetek;test-case-for-algeria",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 33,
-      "name": "@Algeria"
-    }
-  ]
-});
-formatter.step({
-  "line": 35,
-  "name": "open the URL",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 36,
-  "name": "I click on translate",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 37,
-  "name": "I click on country",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 38,
-  "name": "I click on Algeria",
-  "keyword": "Then "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 39,
-      "value": "#Assertions for Algeria"
-    }
-  ],
-  "line": 40,
-  "name": "I assert the text \"LITE\" with \"LITE\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 41,
-  "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 42,
-  "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 43,
-  "name": "I assert the text \"2.7 USD/month\" with \"LitePrice\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 44,
-  "name": "I assert the text \"5.3 USD/month\" with \"ClassicPrice\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 45,
-  "name": "I assert the text \"8 USD/month\" with \"PremiumPrice\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.open_the_URL()"
-});
-formatter.result({
-  "duration": 6396450600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "translate",
-      "offset": 11
-    }
-  ],
-  "location": "StepDefinition.click(String)"
-});
-formatter.result({
-  "duration": 1931173800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "country",
-      "offset": 11
-    }
-  ],
-  "location": "StepDefinition.click(String)"
-});
-formatter.result({
-  "duration": 180346000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Algeria",
-      "offset": 11
-    }
-  ],
-  "location": "StepDefinition.click(String)"
-});
-formatter.result({
-  "duration": 1434088600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "LITE",
-      "offset": 19
-    },
-    {
-      "val": "LITE",
-      "offset": 31
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 43302400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "CLASSIC",
-      "offset": 19
-    },
-    {
-      "val": "CLASSIC",
-      "offset": 34
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 26310800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "PREMIUM",
-      "offset": 19
-    },
-    {
-      "val": "PREMIUM",
-      "offset": 34
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 25830700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2.7 USD/month",
-      "offset": 19
-    },
-    {
-      "val": "LitePrice",
-      "offset": 40
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 29324800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "5.3 USD/month",
-      "offset": 19
-    },
-    {
-      "val": "ClassicPrice",
-      "offset": 40
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 26697900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "8 USD/month",
-      "offset": 19
-    },
-    {
-      "val": "PremiumPrice",
-      "offset": 38
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 25304800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 954324700,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1516368500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 48,
-  "name": "Test case for Chad",
-  "description": "",
-  "id": "test-scenarios-for-dicetek;test-case-for-chad",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 47,
-      "name": "@Chad"
-    }
-  ]
-});
-formatter.step({
-  "line": 49,
-  "name": "open the URL",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 50,
-  "name": "I click on translate",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 51,
-  "name": "I click on country",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 52,
-  "name": "I click on Chad",
-  "keyword": "Then "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 53,
-      "value": "#Assertions for Chad"
-    }
-  ],
-  "line": 54,
-  "name": "I assert the text \"LITE\" with \"LITE\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 55,
-  "name": "I assert the text \"CLASSIC\" with \"CLASSIC\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 56,
-  "name": "I assert the text \"PREMIUM\" with \"PREMIUM\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 57,
-  "name": "I assert the text \"2.4 USD/month\" with \"LitePrice\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 58,
-  "name": "I assert the text \"4.8 USD/month\" with \"ClassicPrice\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 59,
-  "name": "I assert the text \"7.2 USD/month\" with \"PremiumPrice\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.open_the_URL()"
-});
-formatter.result({
-  "duration": 7606511500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "translate",
-      "offset": 11
-    }
-  ],
-  "location": "StepDefinition.click(String)"
-});
-formatter.result({
-  "duration": 262158800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "country",
-      "offset": 11
-    }
-  ],
-  "location": "StepDefinition.click(String)"
-});
-formatter.result({
-  "duration": 2156197700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Chad",
-      "offset": 11
-    }
-  ],
-  "location": "StepDefinition.click(String)"
-});
-formatter.result({
-  "duration": 1828528900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "LITE",
-      "offset": 19
-    },
-    {
-      "val": "LITE",
-      "offset": 31
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 50558400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "CLASSIC",
-      "offset": 19
-    },
-    {
-      "val": "CLASSIC",
-      "offset": 34
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 29604200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "PREMIUM",
-      "offset": 19
-    },
-    {
-      "val": "PREMIUM",
-      "offset": 34
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 24945000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2.4 USD/month",
-      "offset": 19
-    },
-    {
-      "val": "LitePrice",
-      "offset": 40
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 25519100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "4.8 USD/month",
-      "offset": 19
-    },
-    {
-      "val": "ClassicPrice",
-      "offset": 40
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 24708000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "7.2 USD/month",
-      "offset": 19
-    },
-    {
-      "val": "PremiumPrice",
-      "offset": 40
-    }
-  ],
-  "location": "StepDefinition.assertions(String,String)"
-});
-formatter.result({
-  "duration": 24333100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1039791100,
+  "duration": 5690981200,
   "status": "passed"
 });
 });

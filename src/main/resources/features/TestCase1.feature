@@ -6,6 +6,7 @@ Feature: Test Scenarios for DiceTek
   	Scenario: Test case for UAE
     Given open the URL
     When I click on translate
+    Then I assert the title with "Jawwy TV - Watch Online movies, series & live TV | Enjoy Free Trial"
     Then I click on country
     Then I click on UAE
     #Assertions for UAE
@@ -20,6 +21,7 @@ Feature: Test Scenarios for DiceTek
     Scenario: Test case for Egypt
     Given open the URL
     When I click on translate
+    Then I assert the title with "Jawwy TV - Watch Online movies, series & live TV | Enjoy Free Trial"
     Then I click on country
     Then I click on Egypt
     #Assertions for Egypt
@@ -34,6 +36,7 @@ Feature: Test Scenarios for DiceTek
     Scenario: Test case for Algeria
     Given open the URL
     When I click on translate
+    Then I assert the title with "Jawwy TV - Watch Online movies, series & live TV | Enjoy Free Trial"
     Then I click on country
     Then I click on Algeria
     #Assertions for Algeria
@@ -48,6 +51,7 @@ Feature: Test Scenarios for DiceTek
     Scenario: Test case for Chad
     Given open the URL
     When I click on translate
+    Then I assert the title with "Jawwy TV - Watch Online movies, series & live TV | Enjoy Free Trial"
     Then I click on country
     Then I click on Chad
     #Assertions for Chad
@@ -57,5 +61,3 @@ Feature: Test Scenarios for DiceTek
     Then I assert the text "2.4 USD/month" with "LitePrice"
     Then I assert the text "4.8 USD/month" with "ClassicPrice"
     Then I assert the text "7.2 USD/month" with "PremiumPrice"
-    
-    

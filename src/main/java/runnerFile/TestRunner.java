@@ -10,7 +10,7 @@ import cucumber.api.CucumberOptions;
 		dryRun=false,
 		features = "src/main/resources/features",
 		glue="stepDefinitions",
-		tags= {"@diceTek"},
+		tags= {"@TestCase2withExamples"},
 		plugin = { "pretty", "html:target/cucumber-reports" }
 		)
 
